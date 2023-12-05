@@ -54,7 +54,7 @@ header a.logo {
     font-size: medium;
 
 }
-.big_title button {
+.registerbtn {
     font-size: 0.9rem;
     padding: 0.5rem 1rem;
     width: max-content;
@@ -202,4 +202,42 @@ mark {
     font-size: 0.8rem;
     font-weight: 600;
     width: fit-content;
+}
+.membership {
+    color: white;
+    background-color: #071629;
+}
+.membership > div {
+    display: flex;
+    flex-direction: row;
+}
+.membership > div > div {
+    display: flex;
+    flex-direction: column;
+}
+.membership > div > div > img {
+    width: 35px;
+    height: auto;
+}
+
+.transi {
+    display: inline;
+}
+
+.FAQ h1 {
+    font-size: 4rem;
+}
+.FAQ div {
+    display: flex;
+    flex-direction: column;
+
+
+}
+.FAQ div div {
+    display: flex;
+    flex-direction: row;
+}
+.FAQ div div div {
+    display: flex;
+    flex-direction: column;
 }
