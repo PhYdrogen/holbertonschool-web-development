@@ -113,3 +113,24 @@ mark {
 .quote {
     background-color: #C271FF;
 }
+.quote > div {
+    margin: 0rem 15rem;
+    color: white;
+    display: flex;
+    height: 400px;
+    align-items: center;
+}
+.quote img {
+    height: 160px;
+    width: fit-content;
+}
+.quote > div > div {
+    margin-left: 3rem;
+}
+.quote > div > div > q + p {
+    margin-top: 1rem;
+    margin-bottom: 0.4rem;
+}
+.quote > div > div > q ~ p + p {
+    margin: 0;
+}
