@@ -1,0 +1,115 @@
+* {
+    font-family: source sans pro;
+    width: -webkit-fill-available;
+}
+a:-webkit-any-link {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+body {
+    background-image: url("img/background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0px;
+}
+header {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+.nav {
+    width: fit-content;
+    font-size: 0.8rem;
+}
+.nav a {
+    margin: 0px 1rem;
+    
+}
+header a.logo {
+    width: 10rem;
+}
+.banner {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+}
+.big_title {
+    display: flex;
+    width: max-content;
+    flex-direction: column;
+    align-items: center;
+}
+.big_title h1 {
+    margin: 5rem 0rem 0rem 0rem;
+    font-size: 7rem;
+}
+.big_title p {
+    margin: 0rem 0rem 3rem 0rem;
+    word-spacing: 1.6em;
+    width: max-content;
+    font-size: medium;
+
+}
+.big_title button {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    width: max-content;
+    color: #fff;
+    border: 1px solid #C271FF;
+    border-radius: 22px;
+    background-color: #C271FF;
+    box-shadow: 0 0 2em black;;
+}
+mark {
+    font-weight: 600;
+    color: #C271FF;
+    background-color: transparent;
+}
+.review {
+    margin-top: 13rem;
+    display: flex;
+    width: max-content;
+    flex-direction: column;
+    align-items: center;
+
+}
+.review h1 {
+    width: fit-content;
+    font-weight: 100;
+
+}
+.review > div {
+    display: flex;
+    flex-direction: row;
+}
+.review > div > div {
+    margin: 0rem 1rem 0rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 15rem;
+    width: max-content;
+}
+.review > div > div > img  {
+    border-radius: 50%;
+    width: 90%;
+}
+.review > div > div > h2  {
+    font-size: 0.9rem;
+    width: max-content;
+
+}
+.review > div > div > p  {
+    margin: 0%;
+    width: 8rem;
+    color: rgba(255, 255, 255, 0.7);
+    white-space: pre-line;
+    font-size: 0.9rem;
+}
+.quote {
+    background-color: #C271FF;
+}
