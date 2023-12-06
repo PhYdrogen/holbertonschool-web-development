@@ -45,13 +45,13 @@ header a.logo {
 }
 .big_title h1 {
     margin: 5rem 0rem 0rem 0rem;
-    font-size: 7rem;
+    font-size: 120px;
 }
 .big_title p {
     margin: 0rem 0rem 3rem 0rem;
     word-spacing: 1.6em;
     width: max-content;
-    font-size: medium;
+    font-size: 16px;
 
 }
 .registerbtn {
@@ -62,7 +62,10 @@ header a.logo {
     border: 1px solid #C271FF;
     border-radius: 22px;
     background-color: #C271FF;
-    box-shadow: 0 0 2em black;;
+    box-shadow: 0 0 2em black;
+}
+.registerbtn:hover {
+    cursor: pointer;
 }
 mark {
     font-weight: 600;
@@ -80,6 +83,7 @@ mark {
 .review h1 {
     width: fit-content;
     font-weight: 100;
+    font-size: 32px;
 
 }
 .review > div {
@@ -96,10 +100,10 @@ mark {
 }
 .review > div > div > img  {
     border-radius: 50%;
-    width: 90%;
+    width: 150px;
 }
 .review > div > div > h2  {
-    font-size: 0.9rem;
+    font-size: 18px;
     width: max-content;
 
 }
@@ -108,7 +112,7 @@ mark {
     width: 8rem;
     color: rgba(255, 255, 255, 0.7);
     white-space: pre-line;
-    font-size: 0.9rem;
+    font-size: 16px;
 }
 .quote {
     background-color: #C271FF;
@@ -157,7 +161,7 @@ mark {
     width: max-content;
 }
 .videos > .miniature {
-    width: 100%;
+    width: 255px;
     height: auto;
 }
 .videos > div > div > p {
@@ -203,41 +207,131 @@ mark {
     font-weight: 600;
     width: fit-content;
 }
+
 .membership {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     color: white;
     background-color: #071629;
+}
+.membership > h1 {
+    margin-top: 72px;
+    margin-bottom: 58px;
+    font-size: 32px;
+    width: fit-content;
 }
 .membership > div {
     display: flex;
     flex-direction: row;
+    margin-left: 160px;
+    margin-right: 160px;
 }
 .membership > div > div {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin: 0px 28px 0px 28px;
 }
+.membership > div > div:first-child {
+    margin: 0px 28px 0px 0px;
+}
+.membership > div > div:last-child {
+    margin: 0px 0px 0px 28px;
+}
+.membership > div > div > h2 {
+    width: fit-content;
+    font-size: 18px;
+}
+.membership > div > div > p {
+    width: fit-content;
+    font-size: 14px;
+}
+
 .membership > div > div > img {
     width: 35px;
     height: auto;
 }
-
-.transi {
-    display: inline;
+.membership > .registerbtn {
+    margin-top: 85px;
+    margin-bottom: 52px;
 }
 
+.FAQ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .FAQ h1 {
-    font-size: 4rem;
+    font-weight: 100;
+    font-size: 60px;
+    width: fit-content;
 }
 .FAQ div {
     display: flex;
     flex-direction: column;
+    width: fit-content;
 
 
 }
 .FAQ div div {
     display: flex;
     flex-direction: row;
+    margin-bottom: 50px;
 }
 .FAQ div div div {
+    width: 300px;
     display: flex;
     flex-direction: column;
+    margin: 0px 100px;
+
+}
+.FAQ div div div h2 {
+    font-size: 16px;
+}
+.FAQ div div div p {
+    font-size: 14px;
+}
+
+footer {
+    background-color: #071629;
+
+}
+footer div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    height: 250px;
+
+
+}
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+.links div {
+    width: fit-content;
+    flex-direction: row;
+    height: 30px;
+
+}
+footer div div img {
+    height: 30px;
+    width: auto;
+}
+.links div a {
+    height: fit-content;
+    width: fit-content;
+    margin: 0px 10px;
+}
+.links + p {
+    width: fit-content;
+    color:rgba(255, 255, 255, 0.3);
+    margin-top: 0px;
 }
